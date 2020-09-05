@@ -16,7 +16,6 @@ module.exports.clear = async () => {
 
 module.exports.showAll = async () => {
     const list = await db.read()
-    //打印之前的任务
     printTasks(list)
 
 }
